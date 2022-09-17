@@ -1,0 +1,18 @@
+/*--------------------
+      Index.ejs
+---------------------*/
+
+body {
+    background: #52ABC3;
+    font-family:  'MuseoModerno', cursive;
+}
+
+.containerCenter {
+    border: 2px solid #FFF0DF;
+    width: 50%;
+    margin: 2% 45% 2% 25%;
+    padding: 1% 2%;
+}
+.appName {
+    color: 
+}
