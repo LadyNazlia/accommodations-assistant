@@ -13,6 +13,27 @@ body {
     margin: 2% 45% 2% 25%;
     padding: 1% 2%;
 }
-.appName {
-    color: 
+.appName a {
+    color: #FFF0DF;
+    text-decoration: none;
 }
+
+.appName a:hover {
+    color: #C7CB74;
+}
+
+.btn {
+    background-color: #FFF0DF;
+    border-color: #FFF0DF;
+    color:#C7CB74;
+}
+.btn:hover {
+    background-color: #C7CB74;
+    color: #FFF0DF;
+    border-color: #C7CB74;
+}
+
+
+/*--------------------
+      Index.ejs
+---------------------*/
