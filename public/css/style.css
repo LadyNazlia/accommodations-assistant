@@ -1,5 +1,5 @@
 /*--------------------
-      Index.ejs
+      Main Style
 ---------------------*/
 
 body {
@@ -13,6 +13,10 @@ body {
     margin: 2% 45% 2% 25%;
     padding: 1% 2%;
 }
+
+.container {
+    width: 90%;
+}
 .appName a {
     color: #FFF0DF;
     text-decoration: none;
@@ -25,15 +29,31 @@ body {
 .btn {
     background-color: #FFF0DF;
     border-color: #FFF0DF;
-    color:#C7CB74;
+    color:#4b0082;
 }
 .btn:hover {
     background-color: #C7CB74;
-    color: #FFF0DF;
+    color:#52ABC3;
     border-color: #C7CB74;
 }
 
 
-/*--------------------
-      Index.ejs
----------------------*/
+.form-control {
+    background-color: #FFF0DF;
+    
+}
+
+form {
+    width: 200%;
+    
+}
+
+.form-text {
+    color:#FFF0DF;
+}
+
+.form-control:focus, .btn:focus {
+    border: 5px solid #4b0082;
+}
+
+
