@@ -6,17 +6,20 @@ function getInfo() {
     
     console.log(learningDisability)
 
+    const url = 'https://accommodations-api.onrender.com/api/'+ learningDisability
+    fetch(url) 
+        .then(res => res.json())
+        .then(data => {
+            console.log(data.disability)
+            console.log(data.explanation)
+            console.log(data.important)
+            console.log(data.troubleAreas) //doesn't work atm - undefined
+             console.log(data.accommodation)
 
-
-//     // const URL = 'https://accommodations-api.onrender.com/api/'+ learningDisability
-//     // fetch(url) 
-//     //     .then(res => res.json())
-//     //     .then(data => {
-//     //         console.log(data)
-//     //     })
-//     //     .catch(err => {
-//     //         console.log(`error ${err}`)
-//     //     });
+        })
+        .catch(err => {
+            console.log(`error ${err}`)
+        });
 }
 
 
