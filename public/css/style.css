@@ -17,7 +17,27 @@ body {
 .container {
     width: 90%;
 }
-.appName a {
+
+.form-control {
+    background-color: #FFF0DF;
+    
+}
+
+form {
+    width: 200%;
+    
+}
+
+.form-text {
+    color:#FFF0DF;
+}
+
+
+/*--------------------
+      Button Style
+---------------------*/
+
+.appName a, a {
     color: #FFF0DF;
     text-decoration: none;
 }
@@ -37,23 +57,6 @@ body {
     border-color: #C7CB74;
 }
 
-
-.form-control {
-    background-color: #FFF0DF;
-    
-}
-
-form {
-    width: 200%;
-    
-}
-
-.form-text {
-    color:#FFF0DF;
-}
-
 .form-control:focus, .btn:focus {
-    border: 5px solid #4b0082;
+    border: 2px solid #4b0082;
 }
-
-
