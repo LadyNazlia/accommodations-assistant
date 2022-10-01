@@ -10,6 +10,7 @@
       messages.info.forEach( el => { %>
       <div class="alert alert-info"><%= el.msg %></div>
       <% }) %> <% } %>
+      <br>
       <form action="/login" method="POST">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"
@@ -32,6 +33,7 @@
             name="password"
           />
         </div>
+        <br>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </section>
