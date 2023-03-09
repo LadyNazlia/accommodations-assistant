@@ -14,23 +14,6 @@ const { config } = require("dotenv");
 const PORT = 2120;
 
 
-const connectDB = async () => {
-  try {
-    const conn = await mongoose.connect(process.env.MONGO_URI);
-    console.log(`MongoDB Connected: ${conn.connection.host}`);
-  } catch (error) {
-    console.log(error);
-    process.exit(1);
-  }
-}
-
-//Connect to the database before listening
-connectDB().then(() => {
-  app.listen(PORT, () => {
-      console.log("listening for requests");
-  })
-})
-
 //Use .env file in config folder
 require("dotenv").config({ path: "./config/.env" });
 
