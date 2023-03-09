@@ -2,6 +2,10 @@
 
 `npm install`
 
+`npm install mongdb`
+`npm install express`
+`npm install nodmon`
+
 ---
 
 # Things to add

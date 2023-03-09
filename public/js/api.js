@@ -4,6 +4,7 @@ function getInfo() {
     let select = document.getElementById('learningDisability')
     let learningDisability = select.value
     let disabilityTrouble = document.querySelector('#disabilityTrouble')
+    let accommodations = document.querySelector('#accommodations')
     
 
 
@@ -13,6 +14,7 @@ function getInfo() {
         .then(data => {
             //clears ul in case user doesn't refresh page between button clicks
             disabilityTrouble.innerHTML = ' '
+            accommodations.innerHTML = ' '
             document.querySelector('#disabilityName').innerHTML = data.disability
             document.querySelector('#ExplanationLabel').innerHTML = "Explanation"
             document.querySelector('#disabilityExplanation').innerHTML = data.explanation
